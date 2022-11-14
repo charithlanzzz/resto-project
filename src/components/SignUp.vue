@@ -16,6 +16,7 @@
 </template>
 <script>
 import axios from 'axios'
+
 export default{
     name:'SignUp',
     data()
@@ -38,11 +39,21 @@ export default{
             console.warn(result);
             if(result.status==201)
             {
-               alert("signUp done");
+        
                localStorage.setItem("user-info",JSON.stringify(result.data))
+               this.$router.push({name:'Home'})
             }
         }
 
+    },
+
+    mounted()
+    {
+        let user = localStorage.getItem('user-info');
+        if(user)
+        {
+            this.$router.push({name:'Home'})
+        }
     }
 }
 </script>
