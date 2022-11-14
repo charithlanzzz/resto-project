@@ -1,0 +1,40 @@
+{
+  "user": [
+    {
+      "name": "anil",
+      "email": "anil@gmail.com",
+      "password": "anil123",
+      "id": 1
+    },
+    {
+      "name": "Sam",
+      "email": "sam@gmail.com",
+      "password": "sam123",
+      "id": 2
+    },
+    {
+      "name": "gdfg",
+      "email": "sam@gmail.com",
+      "password": "sam123",
+      "id": 3
+    },
+    {
+      "name": "sss",
+      "email": "sam@gmail.com",
+      "password": "sam123",
+      "id": 4
+    },
+    {
+      "name": "sss",
+      "email": "sam@gmail.com",
+      "password": "sam123",
+      "id": 5
+    },
+    {
+      "name": "ffff",
+      "email": "ffff",
+      "password": "ffff",
+      "id": 6
+    }
+  ]
+}
