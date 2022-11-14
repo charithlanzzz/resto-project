@@ -12,6 +12,9 @@
         <input type="text" v-model="password" placeholder="Enter the password"/><br>
 
         <button v-on:click="signUp" type="submit">Sign Up</button>
+        <p>
+            <router-link to="/login">Login</router-link>
+        </p>
     </div>
 </template>
 <script>
@@ -58,28 +61,6 @@ export default{
 }
 </script>
 <style>
-.register input 
-{
-   width: 300px;
-   height: 40px;
-   padding-left: 20px;
-   display: block;
-   margin-bottom: 30px;
-   margin-right: auto;
-   margin-left: auto;
-   border: 1px solid skyblue;
-}
 
-.register label
-{
-    margin-left:-250px;
-}
-
-.register button
-{
-   width:200px;
-   height:40px;
-   border: 1px solid skyblue;
-}
 
 </style>
