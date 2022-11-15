@@ -22,7 +22,7 @@ body{
    margin: 0;
 }
 
-.register input 
+.register input  
 {
    width: 300px;
    height: 40px;
@@ -44,6 +44,20 @@ body{
    margin-left: auto;
    border: 1px solid skyblue;
 }
+.add input
+{
+   width: 300px;
+   height: 40px;
+   padding-left: 20px;
+   display: block;
+   margin-bottom: 30px;
+   margin-right: auto;
+   margin-left: auto;
+   border: 1px solid skyblue;
+}
+
+
+
 
 
 
@@ -52,6 +66,10 @@ body{
     margin-left:-250px;
 }
 .login label
+{
+    margin-left:-250px;
+}
+.add label
 {
     margin-left:-250px;
 }
@@ -65,6 +83,12 @@ body{
    border: 1px solid skyblue;
 }
 .login button
+{
+   width:200px;
+   height:40px;
+   border: 1px solid skyblue;
+}
+.add button
 {
    width:200px;
    height:40px;
