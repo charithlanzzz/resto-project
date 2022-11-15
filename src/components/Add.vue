@@ -27,6 +27,7 @@
 
 <script>
 import Header from "./Header.vue";
+import axios from 'axios';
 export default {
   // eslint-disable-next-line vue/multi-word-component-names
   name: "Add",
@@ -44,8 +45,19 @@ export default {
     };
   },
   methods: {
-    addRestaurant(){
+    async addRestaurant(){
         console.warn(this.restaurant);
+        const result = await axios.post("http://localhost:3000/restaurant",{
+            name:this.restaurant.name,
+            address:this.restaurant.address,
+            contact:this.restaurant.contact
+        })
+        if(result.status==201)
+            {
+    
+               this.$router.push({name:'Home'})
+            }
+            console.warn("result",result);
     }
   },
   mounted() {
