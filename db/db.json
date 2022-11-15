@@ -60,5 +60,27 @@
       "password": "lll",
       "id": 10
     }
+  ],
+  "restaurant": [
+    {
+      "id": "1",
+      "name": "Burgur king",
+      "contact": "0765659856",
+      "address": "No 45, Kadawatha rd, ragama"
+    },
+    {
+      "id": "2",
+      "name": "China Town",
+      "contact": "0756958478",
+      "address": "No 45, Mahabage rd, ragama"
+      
+    },
+    {
+      "id": "3",
+      "name": "Casa",
+      "contact": "0765986589",
+      "address": "No 45, Ganemulla rd, ragama"
+      
+    }
   ]
 }
