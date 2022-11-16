@@ -2,11 +2,12 @@
   <div class="nav">
     <router-link to="/">Home</router-link>
     <router-link to="/add">Add Restaurant</router-link>
-    <a v-on:click="logout"  href="#">Logout</a>
+    <a v-on:click="logout"  href="#" style="margin-left:1030px;">Logout</a>
   </div>
 </template>
 
 <script>
+
 export default {
   // eslint-disable-next-line vue/multi-word-component-names
   name: "Header",

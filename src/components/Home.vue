@@ -1,7 +1,9 @@
 <template>
+  
   <Header />
   <h1>Hello {{ name }}, welcome to home page</h1>
-  <table border="1px">
+  <table class="table table-dark table-striped">
+    <thead>
     <tr>
       <td>ID</td>
       <td>Name</td>
@@ -9,22 +11,26 @@
       <td>Address</td>
       <td>Action</td>
     </tr>
+    </thead>
+    <tbody>
     <tr v-for="item in restaurant" :key="item.id">
       <td>{{ item.id }}</td>
       <td>{{ item.name }}</td>
       <td>{{ item.contact }}</td>
       <td>{{ item.address }}</td>
       <td>
-        <router-link :to="'/update/' + item.id">Update</router-link>
-        <button v-on:click="deleteRestaurant(item.id)">Delete</button>
+        <router-link :to="'/update/' + item.id" class="btn btn-success">Update</router-link>
+        <button v-on:click="deleteRestaurant(item.id)" class="btn btn-danger">Delete</button>
       </td>
     </tr>
+    </tbody>
   </table>
 </template>
 
 <script>
 import Header from "./Header.vue";
 import axios from "axios";
+
 export default {
   // eslint-disable-next-line vue/multi-word-component-names
   name: "Home",

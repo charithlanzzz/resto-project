@@ -74,24 +74,4 @@ body{
     margin-left:-250px;
 }
 
-
-
-.register button  
-{
-   width:200px;
-   height:40px;
-   border: 1px solid skyblue;
-}
-.login button
-{
-   width:200px;
-   height:40px;
-   border: 1px solid skyblue;
-}
-.add button
-{
-   width:200px;
-   height:40px;
-   border: 1px solid skyblue;
-}
 </style>

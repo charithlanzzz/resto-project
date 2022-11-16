@@ -8,20 +8,20 @@
       name="name"
       placeholder="Enter the name"
       v-model="restaurant.name"
-    />
+    required/>
     <input
       type="text"
       name="address"
       placeholder="Enter the address"
       v-model="restaurant.address"
-    />
+    required/>
     <input
       type="text"
       name="contact"
       placeholder="Enter the contact"
       v-model="restaurant.contact"
-    />
-    <button type="button" v-on:click="addRestaurant">Add New restaurant</button>
+    required/>
+    <button type="button" v-on:click="addRestaurant" class="btn btn-success">Add New restaurant</button>
   </form>
 </template>
 

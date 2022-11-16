@@ -1,6 +1,12 @@
 <template>
     <Header/>
     <h1>Hello user, welcome to update page</h1>
+
+
+
+
+
+    
     <form class="add">
     <input
       type="text"
@@ -20,7 +26,7 @@
       placeholder="Enter the contact"
       v-model="restaurant.contact"
     />
-    <button type="button" v-on:click="updateRestaurant">Update restaurant</button>
+    <button type="button" v-on:click="updateRestaurant" class="btn btn-success">Update restaurant</button>
   </form>
 </template>
 

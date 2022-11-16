@@ -59,6 +59,30 @@
       "email": "lll",
       "password": "lll",
       "id": 10
+    },
+    {
+      "name": "fff",
+      "email": "fff",
+      "password": "fff",
+      "id": 11
+    },
+    {
+      "name": "hjkhjkhj",
+      "email": "lkhjklhj",
+      "password": "hjklhjklhlkj",
+      "id": 12
+    },
+    {
+      "id": 13
+    },
+    {
+      "id": 14
+    },
+    {
+      "name": "",
+      "email": "",
+      "password": "",
+      "id": 15
     }
   ],
   "restaurant": [
@@ -81,16 +105,10 @@
       "address": "No 45, Ganemulla rd, ragama"
     },
     {
-      "name": "hey",
-      "address": "Hey",
-      "contact": "hey",
-      "id": 4
-    },
-    {
-      "id": 5,
-      "name": "gg",
-      "address": "gg",
-      "contact": "gg"
+      "name": "KFC",
+      "address": "kfc@gmail.com",
+      "contact": "0756985456",
+      "id": 5
     }
   ]
 }
