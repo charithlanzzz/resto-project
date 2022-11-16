@@ -91,24 +91,6 @@
       "name": "gg",
       "address": "gg",
       "contact": "gg"
-    },
-    {
-      "id": 6,
-      "name": "sdfsd",
-      "address": "sdfdsfs",
-      "contact": "sdfsdf"
-    },
-    {
-      "id": 7,
-      "name": "rr",
-      "address": "gr",
-      "contact": "rg"
-    },
-    {
-      "name": "ttt",
-      "address": "ttt",
-      "contact": "ttt",
-      "id": 8
     }
   ]
 }
