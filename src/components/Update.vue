@@ -1,6 +1,27 @@
 <template>
-    <Header />
+    <Header/>
     <h1>Hello user, welcome to update page</h1>
+    <form class="add">
+    <input
+      type="text"
+      name="name"
+      placeholder="Enter the name"
+      v-model="restaurant.name"
+    />
+    <input
+      type="text"
+      name="address"
+      placeholder="Enter the address"
+      v-model="restaurant.address"
+    />
+    <input
+      type="text"
+      name="contact"
+      placeholder="Enter the contact"
+      v-model="restaurant.contact"
+    />
+    <button type="button" v-on:click="addRestaurant">Update restaurant</button>
+  </form>
 </template>
 
 <script>
@@ -11,6 +32,16 @@ export default{
     components:{
         Header
     },
+
+    data() {
+    return {
+      restaurant: {
+        name: "",
+        address: "",
+        contact: "",
+      },
+    };
+  },
 
     mounted()
     {
